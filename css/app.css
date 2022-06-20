@@ -15,7 +15,18 @@ header {
 }
 
 section {
-    border:  30px;
+    border: 3px solid black;
+    padding: 30px;
+    background-color: yellowgreen;
+}
+
+section:nth-child(2n+1) {
+    background-color: darkgoldenrod;
+}
+
+section:nth-child(2) {
+    background-color: lightseagreen;
+
 }
 
 .container {
@@ -86,4 +97,7 @@ section {
     margin: 100px 150px;
 }
 
-
+#footer {
+    background-color: gray;
+    min-height: 700px;
+}
