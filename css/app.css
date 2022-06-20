@@ -4,14 +4,21 @@
     padding: 0;
 }
 
+body {
+    max-width: 1920px;
+
+}
+
 header {
     background-color: aquamarine;
     border: 3px solid green;
-    max-width: 1920px;
+}
+
+section {
+    border:  30px;
 }
 
 .container {
-    background-color: lightcoral;
     margin: 0 auto;
     max-width: 1200px;
     border: 3px solid orange;
@@ -23,21 +30,60 @@ header {
 }
 
 .logo {
+    background-color: lightcoral;
     border: 2px solid red;
     flex-basis: 20%;
+    padding: 10px;
 }
 
 .main-nav {
+    background-color: lightcoral;
     border: 2px solid red;
     flex-basis: 60%;
     justify-content: space-evenly;
-    padding: 10px 60px;
+    padding: 10px 150px;
     
     
 }
 
 .login {
+    background-color: lightcoral;
     border: 2px solid red;
     flex-basis: 20%;
     justify-content: flex-end;
+    padding: 10px;
 }
+
+.first-item {
+    background-color: blue;
+    height: 400px;
+    margin: 100px 250px;
+}
+
+.item-a {
+    width: 550px;
+    height: 350px;
+    background-color: blueviolet;
+    flex-basis: 60%;
+    
+}
+
+.item-b {
+    background-color: aqua;
+    flex-basis: 40%;
+    width: 550px;
+    height: 350px;
+    
+
+}
+.second {
+    flex-direction: row-reverse;
+}
+
+.last-item {
+    background-color: coral;
+    height: 700px;
+    margin: 100px 150px;
+}
+
+
