@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+header {
+    background-color: aquamarine;
+    border: 3px solid green;
+    max-width: 1920px;
+}
+
+.container {
+    background-color: lightcoral;
+    margin: 0 auto;
+    max-width: 1200px;
+    border: 3px solid orange;
+    align-items: center;
+}
+
+.flex {
+    display: flex;
+}
+
+.logo {
+    border: 2px solid red;
+    flex-basis: 20%;
+}
+
+.main-nav {
+    border: 2px solid red;
+    flex-basis: 60%;
+    justify-content: space-evenly;
+    padding: 10px 60px;
+    
+    
+}
+
+.login {
+    border: 2px solid red;
+    flex-basis: 20%;
+    justify-content: flex-end;
+}
