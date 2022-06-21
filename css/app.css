@@ -4,36 +4,37 @@
     padding: 0;
 }
 
-body {
-    max-width: 1920px;
+.row {
+    display: flex;    
+}
 
+.row-reverse {
+    flex-direction: row-reverse;
 }
 
 header {
-    background-color: aquamarine;
-    border: 3px solid green;
+    background-color: rgb(37, 94, 233);
 }
 
 section {
-    border: 3px solid black;
+    /* border: 3px solid black; */
     padding: 30px;
-    background-color: yellowgreen;
+    /* background-color: yellowgreen; */
 }
 
-section:nth-child(2n+1) {
+/* section:nth-child(2n+1) {
     background-color: darkgoldenrod;
 }
 
 section:nth-child(2) {
     background-color: lightseagreen;
 
-}
+} */
 
 .container {
     margin: 0 auto;
     max-width: 1200px;
-    border: 3px solid orange;
-    align-items: center;
+    /* border: 3px solid orange; */
 }
 
 .flex {
@@ -41,60 +42,48 @@ section:nth-child(2) {
 }
 
 .logo {
-    background-color: lightcoral;
-    border: 2px solid red;
-    flex-basis: 20%;
-    padding: 10px;
+    /* background-color: lightcoral;
+    border: 2px solid red; */
 }
 
 .main-nav {
-    background-color: lightcoral;
-    border: 2px solid red;
-    flex-basis: 60%;
-    justify-content: space-evenly;
-    padding: 10px 150px;
-    
+    align-items: center;
+    flex-grow: 1;
+    justify-content: center;
+    /* background-color: lightcoral;
+    border: 2px solid red; */    
+    /* justify-content: space-evenly; */
+    /* padding: 10px 150px;
+     */
     
 }
 
 .login {
-    background-color: lightcoral;
-    border: 2px solid red;
-    flex-basis: 20%;
-    justify-content: flex-end;
-    padding: 10px;
+    /* display: inline-block; */
+    /* background-color: lightcoral;
+    border: 2px solid red; */
 }
 
 .first-item {
-    background-color: blue;
-    height: 400px;
+    text-align: center;
+    height: 200px;
     margin: 100px 250px;
 }
 
 .item-a {
-    width: 550px;
-    height: 350px;
-    background-color: blueviolet;
-    flex-basis: 60%;
-    
+    /* background-color: blueviolet; */
+    flex-basis: 60%;    
 }
 
 .item-b {
-    background-color: aqua;
+    /* background-color: aqua; */
     flex-basis: 40%;
-    width: 550px;
-    height: 350px;
-    
-
-}
-.second {
-    flex-direction: row-reverse;
+    padding-top: 50px;
 }
 
 .last-item {
-    background-color: coral;
-    height: 700px;
-    margin: 100px 150px;
+    text-align: center;
+    
 }
 footer {
     background-color: gray;
@@ -128,3 +117,32 @@ footer {
     justify-content: flex-end;
     padding: 10px;
 }
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    text-decoration: none;
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav .row {
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#jumbo {
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+}
+
+#stelline {
+    background-image: url(../img/stars.svg);
+    background
+
+}
+
