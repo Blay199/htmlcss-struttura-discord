@@ -45,10 +45,10 @@ section:nth-child(2) {
     display: flex;
 }
 
-.logo {
+/* .logo {
     /* background-color: lightcoral;
     border: 2px solid red; */
-}
+ */
 
 .main-nav {
     align-items: center;
@@ -62,12 +62,12 @@ section:nth-child(2) {
     
 }
 
-.login {
+/* .login {
     /* display: inline-block; */
     /* background-color: lightcoral;
     border: 2px solid red; */
 
-}
+ */
 
 .first-item {
     text-align: center;
